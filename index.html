@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      var exports = {};
+    </script>
+    <script type="module" src="game.js" defer></script>
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="rps-wrapper">
+        <div class="rps-items">
+          <h3>ROCK</h3>
+          <h3>PAPER</h3>
+          <h3>SCISSORS</h3>
+          <h3>Lizard</h3>
+          <h3>Spock</h3>
+        </div>
+        <div class="score">
+          <h4>S C O R E</h4>
+          <h2 id="display-score"></h2>
+        </div>
+      </div>
+    </div>
+    <div class="moves-wrapper">
+      <div id="rock" class="rock move"></div>
+      <div id="paper" class="paper move"></div>
+      <div id="scissor" class="scissor move"></div>
+      <div id="lizard" class="lizard move"></div>
+      <div id="spock" class="spock move"></div>
+    </div>
+  </body>
+</html>
